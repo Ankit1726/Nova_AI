@@ -1,10 +1,9 @@
 <div align="center">
 
-## 🧠 Nova Agent
+## 🧠 ***Nova Agent***
 
-### AI Personal Assistant powered by LangGraph, RAG & Human-in-the-Loop
-
-> **Nova Agent is an AI-powered personal assistant that can chat with your documents, answer questions using Retrieval-Augmented Generation (RAG), execute real-world tools like Weather, Calculator, and Stock Analysis, maintain persistent conversations, and request human approval for sensitive actions through an intuitive Streamlit interface.**
+### ***AI Personal Assistant powered by LangGraph, RAG & Human-in-the-Loop***
+-  ***Nova Agent is an AI-powered personal assistant that can chat with your documents, answer questions using Retrieval-Augmented Generation (RAG), execute real-world tools like Weather, Calculator, and Stock Analysis, maintain persistent conversations, and request human approval for sensitive actions through an intuitive Streamlit interface.***
 
 <p>
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
