@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🚀 Nova Agent
+## 🚀 Nova Agent
 
 ### AI Personal Assistant built with LangGraph, RAG & Human Approval
 
-An intelligent AI assistant that combines **LLMs, RAG, Tool Calling, Persistent Memory, and Human-in-the-Loop approval** inside a modern Streamlit interface.
+- ***An intelligent AI assistant that combines **LLMs, RAG, Tool Calling, Persistent Memory, and Human-in-the-Loop approval** inside a modern Streamlit interface.***
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agent-purple?style=flat-square)
@@ -19,12 +19,12 @@ An intelligent AI assistant that combines **LLMs, RAG, Tool Calling, Persistent 
 # 📸 UI Preview
 
 <p align="center">
-<img src="assets/ui.png" width="95%">
+<img src="view.png" width="95%">
 </p>
 
 ---
 
-# ✨ Features
+### ✨ Features
 
 - 🤖 AI Personal Assistant
 - 📄 Chat with PDF (RAG)
@@ -39,7 +39,7 @@ An intelligent AI assistant that combines **LLMs, RAG, Tool Calling, Persistent 
 
 ---
 
-# 🏗️ Architecture
+### 🏗️ Architecture
 
 ```text
               User
@@ -77,7 +77,7 @@ An intelligent AI assistant that combines **LLMs, RAG, Tool Calling, Persistent 
 
 ---
 
-# 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 Nova-Agent/
@@ -92,29 +92,12 @@ Nova-Agent/
 ├── config.toml
 └── README.md
 ```
-
 ---
 
-# 🚀 Run Locally
+### 👨‍💻 Developer
+- **Made By Ankit Gupta**
 
-```bash
-git clone https://github.com/yourusername/Nova-Agent.git
-
-cd Nova-Agent
-
-python -m venv venv
-
-pip install -r requirements.txt
-
-streamlit run app.py
-```
-
----
-
-# 👨‍💻 Developer
-
-**Ankit Gupta**
+--- 
 
 AI Backend Engineer | Agentic AI | RAG | LangGraph | LangChain
-
 ⭐ If you like this project, give it a star!
