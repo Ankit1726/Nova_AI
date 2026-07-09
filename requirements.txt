@@ -1,0 +1,53 @@
+# Core
+ipykernel
+jupyter
+notebook
+streamlit
+python-dotenv
+requests
+
+# LangChain Ecosystem
+langchain
+langchain-core
+langchain-community
+langgraph==0.2.56
+langsmith
+langgraph-checkpoint-sqlite
+langserve
+langchain-tavily
+
+# LLM Providers
+langchain-openai
+langchain-groq
+langchain-google-genai
+langchain-anthropic
+langchainhub
+torchvision
+
+# Vector Stores
+langchain-chroma
+chromadb
+faiss-cpu
+
+# Embeddings
+langchain-huggingface
+sentence-transformers
+google-ai-generativelanguage
+
+# Search & Tools
+tavily-python
+wikipedia
+duckduckgo-search
+arxiv
+
+# Document Loaders
+beautifulsoup4
+bs4
+unstructured
+pypdf
+python-docx
+pymupdf
+
+# Data Validation
+pydantic
+typing-extensions
