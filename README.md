@@ -1,79 +1,81 @@
 <div align="center">
 
-## 🚀 Nova Agent
+## 🧠 Nova Agent
 
-### AI Personal Assistant built with LangGraph, RAG & Human Approval
+### AI Personal Assistant powered by LangGraph, RAG & Human-in-the-Loop
 
-- ***An intelligent AI assistant that combines **LLMs, RAG, Tool Calling, Persistent Memory, and Human-in-the-Loop approval** inside a modern Streamlit interface.***
+> **Nova Agent is an AI-powered personal assistant that can chat with your documents, answer questions using Retrieval-Augmented Generation (RAG), execute real-world tools like Weather, Calculator, and Stock Analysis, maintain persistent conversations, and request human approval for sensitive actions through an intuitive Streamlit interface.**
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agent-purple?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-green?style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-LLM-orange?style=flat-square)
+<p>
+<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangGraph-Agent-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq-000000?style=for-the-badge"/>
+</p>
 
 </div>
 
 ---
 
-# 📸 UI Preview
+### 📸 UI Preview
 
 <p align="center">
-<img src="view.png" width="95%">
+<img src="view.png" width="95%" alt="Nova Agent UI">
 </p>
 
 ---
 
-### ✨ Features
+### Key Features ✨ 
 
 - 🤖 AI Personal Assistant
-- 📄 Chat with PDF (RAG)
+- 📄 Chat with PDFs using RAG
 - 🧠 Persistent Chat Memory
 - 💬 Multi-Conversation Support
-- 🛠️ Tool Calling
-- 📈 Stock Analysis
-- 🌦️ Weather Tool
-- 🧮 Calculator
-- 👨 Human Approval Workflow
-- ⚡ Fast LLM Responses
+- 🛠️ Intelligent Tool Calling
+- 📈 Live Stock Analysis
+- 🌦️ Weather Reports
+- 🧮 Calculator Tool
+- 👨 Human Approval (HITL)
+- ⚡ Fast Responses with Groq LLM
 
 ---
 
 ### 🏗️ Architecture
 
 ```text
-              User
-                │
-                ▼
-       Streamlit Frontend
-                │
-                ▼
-         LangGraph Agent
-      ┌────────┼─────────┐
-      │        │         │
-      ▼        ▼         ▼
-    RAG      Tools     Memory
-      │        │         │
-      ▼        ▼         ▼
- ChromaDB   Weather   SQLite
-            Stock
-         Calculator
+                  👤 User
+                     │
+                     ▼
+          🎨 Streamlit Interface
+                     │
+                     ▼
+            🧠 LangGraph Agent
+       ┌─────────┼──────────┐
+       │         │          │
+       ▼         ▼          ▼
+   📄 RAG     🛠️ Tools    💾 Memory
+       │         │          │
+       ▼         ▼          ▼
+ ChromaDB   Weather      SQLite
+            Stocks
+          Calculator
 ```
 
 ---
 
-# 🛠 Tech Stack
+### 🛠️ Tech Stack
 
 | Category | Technologies |
 |-----------|--------------|
-| Language | Python |
-| Framework | Streamlit |
-| AI | LangGraph, LangChain |
-| LLM | Groq |
-| RAG | ChromaDB, Google Embeddings |
-| Database | SQLite |
-| PDF | PyPDF |
-| Tools | Calculator, Weather, Stock Analysis |
+| 💻 Language | Python |
+| 🎨 Frontend | Streamlit |
+| 🧠 AI Framework | LangGraph, LangChain |
+| 🤖 LLM | Groq |
+| 📄 RAG | ChromaDB, Google Generative AI Embeddings |
+| 🗄️ Database | SQLite |
+| 📑 PDF Processing | PyPDF |
+| 🛠️ Tools | Weather, Calculator, Stock Analysis |
 
 ---
 
@@ -92,12 +94,13 @@ Nova-Agent/
 ├── config.toml
 └── README.md
 ```
+
 ---
 
 ### 👨‍💻 Developer
-- **Made By Ankit Gupta**
+- **👨 Made By Ankit Gupta**
 
 --- 
 
-AI Backend Engineer | Agentic AI | RAG | LangGraph | LangChain
-⭐ If you like this project, give it a star!
+💡 ***AI Backend Engineer • Agentic AI • LangGraph • LangChain • RAG • LLM Applications***
+⭐ **If you found this project helpful, consider giving it a Star**
