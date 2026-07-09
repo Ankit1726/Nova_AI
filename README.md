@@ -14,6 +14,7 @@
 </p>
 
 </div>
+---
 
 ### 🌐 Live Demo
 -  **Nova Agent:** **https://novaa-agentic-bot.streamlit.app**
