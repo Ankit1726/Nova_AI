@@ -1,6 +1,3 @@
-# --------------------------------------------------------------
-#   RAG utilities – corrected & slightly hardened
-# --------------------------------------------------------------
 from pathlib import Path
 from typing import List
 
@@ -13,21 +10,12 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 load_dotenv()
 
-# ------------------------------------------------------------------
-#   Embeddings (make sure GOOGLE_API_KEY is in your .env)
-# ------------------------------------------------------------------
 embeddings = GoogleGenerativeAIEmbeddings(
     model="models/gemini-embedding-001"
 )
 
-# ------------------------------------------------------------------
-#   Constants
-# ------------------------------------------------------------------
 FAISS_INDEX_DIR = Path("faiss_db")
 
-# ------------------------------------------------------------------
-#   Document ingestion
-# ------------------------------------------------------------------
 def ingest_rag_document(file_path: str) -> None:
     """
     - Split a PDF into chunks, embed them with Gemini, and store the
@@ -46,9 +34,6 @@ def ingest_rag_document(file_path: str) -> None:
     vector_store.save_local(str(FAISS_INDEX_DIR))
 
 
-# ------------------------------------------------------------------
-#   Retriever factory
-# ------------------------------------------------------------------
 def get_retriever() -> FAISS:
     """
     Load the FAISS index from disk and return a retriever that
@@ -71,9 +56,6 @@ def get_retriever() -> FAISS:
     )
 
 
-# ------------------------------------------------------------------
-#   RAG tool – the one you expose to the LangGraph agent
-# ------------------------------------------------------------------
 @tool
 def rag_tool(query: str) -> str:
     """
