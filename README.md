@@ -17,7 +17,7 @@
 ---
 
 ### 🌐 Live Demo
--  **Nova Agent:** **https://novaa-agentic-bot.streamlit.app**
+-  **Nova Agent:** **[Nova-AI](https://novaa-agentic-bot.streamlit.app)**
   
 ---
 
